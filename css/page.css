@@ -1,0 +1,1240 @@
+
+
+
+@media screen and (max-width:767px){
+    section.introArea{
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    section.introArea h2{display: none;}
+    section.introArea .bx-wrapper {
+        border: none;
+        background-color:black;
+    }
+    section.introArea .bx-wrapper{
+        width: 100%; height: 100%;
+    }
+    section.introArea .bx-wrapper .bx-pager,
+    section.introArea .bx-wrapper .bx-controls-auto{
+        bottom: 1vh;
+    }
+    section.introArea > div ul li figure{
+        display: block; position: relative; width: 100%;
+    }
+    section.introArea > div ul li figure img{width: 100%;}
+    section.introArea > div ul li figure figcaption dl{
+        position: absolute;
+        left: 5%; bottom: 15%;
+        color: white;
+    }
+    section.introArea > div ul li figure figcaption dl dt{
+        font-size: 6vw; line-height: 6vw; margin-bottom: 1vh;
+        font-weight: 600;
+    }
+    section.introArea > div ul li figure figcaption dl dt i{
+        margin: 0;
+        padding: 0;
+        color: #d5001c;
+    }
+    section.introArea > div ul li figure figcaption dl dd{
+        padding-left: 8%;
+        font-size: 4vw; font-weight: 300; line-height: 4vw;
+    }
+    /* introArea FIn */
+
+
+    section.modelArea{margin-bottom: 10%;}
+    section.modelArea h2{
+        font-size: 7vw;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    section.modelArea ul{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    section.modelArea ul li{
+        flex-grow: 1; flex-basis: 100%;
+        position: relative;
+        box-sizing: border-box; cursor: pointer;
+        border: none; list-style: none; line-height: 0;
+        overflow: hidden;
+    }
+    section.modelArea ul li figure img{
+        width: 100%;
+    }
+    section.modelArea ul li figure figcaption dl{
+        color: white;
+    }
+    section.modelArea ul li figure figcaption dl dt{
+        position: absolute; left: 5%; top: 5%;
+        font-size: 7vw; font-weight: 600; line-height: 6vw;
+    }
+    section.modelArea ul li figure figcaption dl dd{
+        position: absolute; left: 5%; top: 15%;
+        font-size: 4vw; font-weight: 400; line-height: 20px;
+    }
+    section.modelArea ul li a{
+        position: absolute; text-decoration: none; color: white;
+        border: 1px solid white; 
+        font-size: 4vw; font-weight: 300; line-height: 7vw; padding: 1% 2%;
+    }
+    section.modelArea ul li a:first-of-type{
+        left: 5%; bottom: 5%;
+    }
+    section.modelArea ul li a:nth-of-type(2){
+        left: 55%; bottom: 5%;
+    }
+    section.modelArea ul li a i{
+        display: inline-block; margin-left: 1vw;
+    }
+    /* modelArea Fin */
+
+    section.findArea{
+        width: 100%;
+        height: 400px;
+        margin-bottom: 25%;
+        position: relative;
+    }
+    section.findArea h2{
+        font-size: 7vw;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    section.findArea #map{
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+    }
+    section.findArea #floating-panel{
+        position: absolute;
+        top: 30%;
+        left: 3%;
+        z-index: 100;
+        background-color: #fff;
+        padding: 3%;
+        border: none;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+        
+    }
+    section.findArea #floating-panel input{
+        background-color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 5vw;
+        font-weight: 300;
+        line-height: 5vw;
+    }
+    /* findArea Fin */
+    /* findArea Fin */
+
+
+    section.shoppingArea{
+        margin-bottom: 5%;
+    }
+    section.shoppingArea h2{
+        font-size: 7vw; font-weight: 300; margin-bottom: 10%;
+        text-align: center;
+    }
+    section.shoppingArea ul{
+        display: flex;
+        flex-flow: row wrap;
+        transition: all 1.5s ease-in-out;
+    }
+    section.shoppingArea ul li{
+        flex-grow: 1; flex-basis: 100%;
+        box-sizing: border-box; cursor: pointer;
+        display: block; height: 60vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 5%;
+        position: relative;
+    }
+    /* 
+    section.shoppingArea ul:hover li{
+        background:transparent !important;
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    section.shoppingArea ul:hover li:first-child{
+        border-left: none;
+    }
+     */
+
+    section.shoppingArea ul li:nth-child(1){
+        background: url("../images/shoppingTools_01.png");
+    }
+    section.shoppingArea ul li:nth-child(2){
+        background:url("../images/shoppingTools_02.png");
+    }
+    section.shoppingArea ul li:nth-child(3){
+        background:url("../images/shoppingTools_03.png");
+    }
+    section.shoppingArea ul li:nth-child(4){
+        background:url("../images/shoppingTools_04.png");
+    }
+    section.shoppingArea ul li dl dt{
+        font-size: 6vw; font-weight: 600; color: #fff;
+        line-height: 10vw; display: inline-block; margin-bottom: 10vh;
+        border-bottom: 2px solid white; padding-bottom: 2%;
+    }
+    section.shoppingArea ul li dl dd{
+        font-size: 4vw; font-weight: 300; line-height: 8vw;
+        color: #fff;
+    } 
+    section.shoppingArea ul li a{
+        display: inline-block; padding: 3%; border: 1px solid white;
+        text-decoration: none;
+        color: white; font-size: 4vw; position: absolute;
+        left: 5%; bottom: 5%;
+    }
+    section.shoppingArea ul li a i{
+        padding-left: 1.5vw;
+    }
+
+
+
+    section.socialArea{
+        max-width: 80%; margin: 10% auto;
+    }
+    section.socialArea h2{
+        font-size: 6vw; font-weight: 300; margin-bottom: 5%; text-align: center;
+    }
+    section.socialArea .contentsArea{
+        margin-bottom: 1%; width: 100%;
+    }
+    section.socialArea .contentsArea ul{
+        width: 100%;
+    }
+    section.socialArea .contentsArea ul:first-child{
+        display: none;
+    }
+    section.socialArea .contentsArea ul li{
+        list-style: none; line-height: 0;
+    }
+    section.socialArea .contentsArea ul li figure{
+        width: 100%; height: 100%; position: relative;
+    }
+    section.socialArea .contentsArea ul li figure > a{
+        width: 100%; height: 100%; display: block;
+    }
+    section.socialArea .contentsArea ul li figure > a img{
+        width: 100%;
+    }
+    section.socialArea .contentsArea ul li:hover figure > a img{
+        width: 100%; opacity: 0.5; transition: opacity 0.5s ease-in-out;
+    }
+    section.socialArea .contentsArea ul li figure figcaption dl dt,
+    section.socialArea .contentsArea ul li figure figcaption dl dd{
+        opacity: 0;
+    }
+    section.socialArea .contentsArea ul li:hover figure figcaption dl dt{
+        display: inline-block; width: 100%; opacity: 1;
+        position: absolute; left: 5%; bottom: 22%;
+        font-size: 4vw; font-weight: 400; line-height: 10vw;
+    }
+    section.socialArea .contentsArea ul li:hover figure figcaption dl dd{
+        display: inline-block; width: 100%; opacity: 1;
+        position: absolute; left: 5%; bottom: 17%;
+        font-size: 4vw; font-weight: 300; line-height: 5vw;
+    }
+    section.socialArea .contentsArea ul li figure figcaption dl a{
+        width: 8vw; display: block;
+        position: absolute; right: 5%; bottom: 5%;
+    }
+    section.socialArea .contentsArea ul li figure figcaption dl a img{
+        width: 100%;
+    }
+
+    section.socialArea .detailInfo{
+        text-align: right;
+    }
+    section.socialArea div.detailInfo > a{
+        text-decoration: none; display: inline-block; line-height: 5vw; box-sizing: border-box;
+        padding: 3%; font-size: 4vw; font-weight: 300;
+        color: white; background-color: #313639;
+    }
+    section.socialArea div.detailInfo > a p{
+        display: inline-block;
+        
+    }
+    section.socialArea div.detailInfo > a i{
+        padding-left: 2vw;
+    }
+    /* socialArea Fin*/
+
+
+
+    section.discoverArea{
+        margin-bottom: 5%;
+    }
+    section.discoverArea h2{
+        font-size: 6vw; font-weight: 300; margin-bottom: 5%;
+        text-align: center;
+    }
+    section.discoverArea ul{
+        display: flex;
+        flex-flow: row wrap;
+        transition: all 1.5s ease-in-out;
+    }
+    section.discoverArea ul li{
+        flex-grow: 1; flex-basis: 100%;
+        box-sizing: border-box; cursor: pointer;
+        display: block; height: 70vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 5%;
+        position: relative;
+    }
+    /* 
+    section.discoverArea ul:hover li{
+        background:transparent !important;
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    section.discoverArea ul:hover li:first-child{
+        border-left: none;
+    }
+     */
+
+    section.discoverArea ul li:nth-child(1){
+        background:url("../images/discover_01.png");
+    }
+    section.discoverArea ul li:nth-child(2){
+        background:url("../images/discover_02.png");
+    }
+    section.discoverArea ul li:nth-child(3){
+        background:url("../images/discover_03.png");
+    }
+    section.discoverArea ul li:nth-child(4){
+        background:url("../images/discover_04.png");
+    }
+    section.discoverArea ul li dl dt{
+        font-size: 7vw; font-weight: 600; color: #fff;
+        line-height: 10vw; display: inline-block; margin-bottom: 10vh;
+        border-bottom: 2px solid white; padding-bottom: 2%;
+    }
+    section.discoverArea ul li dl dd{
+        font-size: 4vw; font-weight: 300; line-height: 8vw;
+        color: #fff;
+    } 
+    section.discoverArea ul li a{
+        display: inline-block; padding: 3%; border: 1px solid white;
+        text-decoration: none;
+        color: white; font-size: 4vw; position: absolute;
+        left: 5%; bottom: 5%;
+    }
+    section.discoverArea ul li a i{
+        padding-left: 1.5vw;
+    }
+    /* discoverArea Fin */
+
+
+}
+/*mobile*/
+@media screen and (min-width:768px) and (max-width:1279px){
+    section.introArea{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    section.introArea h2{display: none;}
+    section.introArea .bx-wrapper {
+        border: none;
+        background-color:black;
+    }
+    section.introArea .bx-wrapper .bx-pager,
+    section.introArea .bx-wrapper .bx-controls-auto{
+        bottom: 2%;
+    }
+    section.introArea > div ul li figure{
+        display: block; position: relative;
+    }
+    section.introArea > div ul li figure img{width: 100%;}
+    section.introArea > div ul li figure figcaption dl{
+        position: absolute;
+        left: 5%; bottom: 10%;
+        color: white;
+    }
+    section.introArea > div ul li figure figcaption dl dt{
+        font-size: 5vw; line-height: 8vw;
+        font-weight: 600;
+    }
+    section.introArea > div ul li figure figcaption dl dt i{
+        color: #d5001c;
+    }
+    section.introArea > div ul li figure figcaption dl dd{
+        padding-left: 5vw;
+        font-size: 3vw; font-weight: 300; line-height: 4vw;
+    }
+    /* introArea FIn */
+
+
+    section.modelArea{margin-bottom: 5%}
+    section.modelArea h2{
+        font-size: 5vw;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    section.modelArea ul{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    section.modelArea ul li{
+        flex-grow: 1; flex-basis: 50%;
+        position: relative;
+        box-sizing: border-box; cursor: pointer;
+        border: none; list-style: none; line-height: 0;
+        overflow: hidden;
+    }
+    section.modelArea ul li figure img{
+        width: 100%;
+    }
+    section.modelArea ul li:hover figure img{
+        transform: scale(1.15);
+        transition: all ease 2s;
+        width: 100%;
+    }
+    section.modelArea ul li figure figcaption dl{
+        color: white;
+    }
+    section.modelArea ul li figure figcaption dl dt{
+        position: absolute; left: 5%; top: 2%;
+        font-size: 6vw; font-weight: 600; line-height: 10vw;
+    }
+    section.modelArea ul li figure figcaption dl dd{
+        position: absolute; left: 5%; top: 25%;
+        font-size: 3vw; font-weight: 400; line-height: 3vw;
+    }
+    section.modelArea ul li a{
+        position: absolute; text-decoration: none; color: white;
+        border: 0.1vw solid white; 
+        font-size: 2vw; font-weight: 400; line-height: 2vw; padding: 2% 2%;
+    }
+    section.modelArea ul li a:first-of-type{
+        left: 5%; bottom: 5%;
+    }
+    section.modelArea ul li a:nth-of-type(2){
+        left: 55%; bottom: 5%;
+    }
+    section.modelArea ul li a:first-of-type:active,
+    section.modelArea ul li a:nth-of-type(2):active{
+        background-color: #d5001c; border-color: #d5001c;
+    }
+    section.modelArea ul li a i{
+        display: inline-block; margin-left: 1vw;
+    }
+    /* modelArea Fin */
+    @keyframes scale {
+        from{transform: scale(1);}
+        50%{transform: scale(1.2);}
+        to{transform: scale(1);}
+    }
+
+
+
+    section.findArea{
+        width: 100%;
+        height: 400px;
+        margin-bottom: 15%;
+        position: relative;
+    }
+    section.findArea h2{
+        font-size: 5vw;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    section.findArea #map{
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+    }
+    section.findArea #floating-panel{
+        position: absolute;
+        top: 40%;
+        left: 1%;
+        z-index: 100;
+        background-color: #fff;
+        padding: 0.5%;
+        border: none;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+        
+    }
+    section.findArea #floating-panel input{
+        background-color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 1.5vw;
+        font-weight: 300;
+        line-height: 3vw;
+    }
+    /* findArea Fin */
+
+
+
+
+    section.shoppingArea{
+        margin-bottom: 40px;
+    }
+    section.shoppingArea h2{
+        font-size: 5vw; font-weight: 300; margin-bottom: 5%;
+        text-align: center;
+    }
+    section.shoppingArea ul{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    section.shoppingArea ul li{
+        flex-grow: 1; flex-basis: 50%;
+        box-sizing: border-box; cursor: pointer;
+        display: block; height: 60vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 5%;
+        position: relative;
+    }
+    section.shoppingArea ul li:nth-child(1){
+        background-image:url("../images/shoppingTools_01.png");
+    }
+    section.shoppingArea ul li:nth-child(2){
+        background-image:url("../images/shoppingTools_02.png");
+    }
+    section.shoppingArea ul li:nth-child(3){
+        background-image:url("../images/shoppingTools_03.png");
+    }
+    section.shoppingArea ul li:nth-child(4){
+        background-image:url("../images/shoppingTools_04.png");
+    }
+    section.shoppingArea ul li dl dt{
+        font-size: 3.5vw; font-weight: 600; color: #fff;
+        line-height: 7vw; display: inline-block; margin-bottom: 5vh;
+        border-bottom:1px solid transparent;
+    }
+    section.shoppingArea ul li:hover dl dt{
+        border-bottom: 2px solid #8c2230;
+        animation-name: blink-2;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+    }
+    section.shoppingArea ul li dl dd{
+        font-size: 2vw; font-weight: 300; line-height: 4vw;
+        color: #fff; opacity: 0; transition: opacity 0.75s ease;
+    } 
+    section.shoppingArea ul li:hover dl dd{
+        opacity: 1;
+        animation-name: blink-2;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+    }
+    section.shoppingArea ul li a{
+        display: inline-block; padding: 3%; border: 1px solid white;
+        text-decoration: none;
+        color: white; font-size: 2vw; position: absolute;
+        left: 10%; bottom: 5%;
+    }
+    section.shoppingArea ul li:hover a{
+        background-color: #8c2230; border: none;
+        animation-name: blink-2;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+    }
+    section.shoppingArea ul li a i{
+        margin-left: 1.5vw;
+    }
+    
+    @keyframes blink-2 {
+        0% {
+        opacity: 1;
+        }
+        50% {
+        opacity: 0.2;
+        }
+        100% {
+        opacity: 1;
+        }
+    }
+    /* shoppingArea Fin */
+
+
+    
+
+    section.socialArea{
+        margin-bottom: 5%;
+        max-width: 70%; margin: auto;
+    }
+    section.socialArea h2{
+        font-size: 5vw; font-weight: 300; margin-bottom: 10%; text-align: center;
+    }
+    section.socialArea div.contentsArea{
+        display: flex; flex-flow: row wrap; margin-bottom: 5%;
+    }
+    section.socialArea .contentsArea ul{
+        flex-grow: 1; flex-basis: 100%;
+        display: flex; flex-flow: row wrap;
+        list-style: none;
+        cursor: pointer;
+        line-height: 0;
+    }
+    section.socialArea .contentsArea ul:first-child li:first-of-type,
+    section.socialArea .contentsArea ul:nth-child(2) li:nth-of-type(3){
+        flex-grow: 1; flex-basis: 100%;
+    }
+    section.socialArea .contentsArea ul:first-child li:nth-of-type(2),
+    section.socialArea .contentsArea ul:first-child li:nth-of-type(3),
+    section.socialArea .contentsArea ul:nth-child(2) li:first-of-type,
+    section.socialArea .contentsArea ul:nth-child(2) li:nth-of-type(2){
+        flex-grow: 1; flex-basis: 50%;
+    }
+    section.socialArea .contentsArea ul li figure{
+        width: 100%; height: 100%; position: relative;
+    }
+    section.socialArea .contentsArea ul li figure > a{
+        width: 100%; height: 100%; display: block;
+    }
+    section.socialArea .contentsArea ul li figure > a img{
+        width: 100%;
+    }
+    section.socialArea .contentsArea ul li:hover figure > a img{
+        width: 100%; opacity: 0.5; transition: opacity 0.5s ease-in-out;
+    }
+    section.socialArea .contentsArea ul li figure figcaption dl dt,
+    section.socialArea .contentsArea ul li figure figcaption dl dd{
+        opacity: 0;
+    }
+    section.socialArea .contentsArea ul li:hover figure figcaption dl dt{
+        display: inline-block; width: 100%; opacity: 1;
+        position: absolute; left: 5%; bottom: 25%;
+        font-size: 2vw; font-weight: 400; line-height: 3vw;
+    }
+    section.socialArea .contentsArea ul li:hover figure figcaption dl dd{
+        display: inline-block; width: 100%; opacity: 1;
+        position: absolute; left: 5%; bottom: 15%;
+        font-size: 1.5vw; font-weight: 300; line-height: 3vw;
+    }
+    section.socialArea .contentsArea ul li figure figcaption dl a{
+        width: 4vw; display: block;
+        position: absolute; right: 5%; bottom: 5%;
+    }
+    section.socialArea .contentsArea ul li figure figcaption dl a img{
+        width: 100%;
+    }
+    
+    section.socialArea .detailInfo{
+        text-align: right; margin-bottom: 10%;
+    }
+    section.socialArea div.detailInfo > a{
+        text-decoration: none; display: inline-block; box-sizing: border-box;
+        padding: 1vw; font-size: 2vw; font-weight: 300; line-height: 3vw;
+        color: white; background-color: #313639;
+    }
+    section.socialArea div.detailInfo > a p{
+        display: inline-block;
+        
+    }
+    section.socialArea div.detailInfo > a i{
+        padding-left: 1vw;
+    }
+    /* socialArea Fin*/
+
+
+/*
+    section.discoverArea h2{
+        font-size: 40px; font-weight: 300; margin-bottom: 40px;
+        text-align: center;
+    }
+    section.discoverArea ul{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    section.discoverArea ul li{
+        width: 25%; box-sizing: border-box; cursor: pointer;
+    }
+    section.discoverArea ul li figure{
+        position: relative;
+    }
+    section.discoverArea ul li figure img{
+        width: 100%;
+    }
+    section.discoverArea ul li figure figcaption dl dt{
+        position: absolute;
+        left: 40px; top: 40px;
+        font-size: 20px; font-weight: 600; color: #fff;
+        line-height: 50px;
+    }
+    section.discoverArea ul li figure figcaption dl dd:first-of-type{
+        opacity: 0;
+    }
+    section.discoverArea ul li:hover figure figcaption dl dd:first-of-type{
+        opacity: 1;
+    }
+    section.discoverArea ul li figure figcaption dl dd:first-of-type hr{
+        position: absolute; left: 40px; top: 140px; width: 50%; text-align: center;
+        margin: 0; padding: 0;
+    }
+    section.discoverArea ul li figure figcaption dl dd:first-of-type p{
+        position: absolute; width: 70%; 
+        left: 40px; top: 200px;
+        font-size: 16px; font-weight: 300; line-height: 20px;
+        color: #fff;
+    }
+    section.discoverArea ul li figure figcaption dl dd:nth-of-type(2) a{
+        text-decoration: none; color: #fff; font-size: 16px; line-height: 20px;
+        border: 1px solid #fff; padding: 5px 5px; box-sizing: border-box;
+        position: absolute; left: 40px; bottom: 30px;
+    }
+    section.discoverArea ul li figure figcaption dl dd:nth-of-type(2) a p{
+        display: none;
+    }
+    section.discoverArea ul li:hover figure figcaption dl dd:nth-of-type(2) a p{
+        display: inline-block;
+    }
+    section.discoverArea ul li figure figcaption dl dd:nth-of-type(2) a i{
+        display: inline-block; padding: 5px;
+    }
+*/
+
+    section.discoverArea{
+        margin-bottom: 5%;
+    }
+    section.discoverArea h2{
+        font-size: 5vw; font-weight: 300; margin-bottom: 5%;
+        text-align: center;
+    }
+    section.discoverArea ul{
+        display: flex;
+        flex-flow: row wrap;
+        transition:all 1.5s ease-in-out;
+        
+    }
+    section.discoverArea ul li{
+        flex-grow: 1; flex-basis: 50%;
+        box-sizing: border-box; cursor: pointer;
+        display: block; height: 40vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        padding: 5%;
+        position: relative;
+    }
+    /*
+    section.discoverArea ul:hover li{
+        background:transparent !important;
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    section.discoverArea ul:hover li:first-child{
+        border-left: none;
+    }
+    */
+    section.discoverArea ul li:nth-child(1){
+        background-image:url("../images/discover_01.png");
+    }
+    section.discoverArea ul li:nth-child(2){
+        background-image:url("../images/discover_02.png");
+    }
+    section.discoverArea ul li:nth-child(3){
+        background-image:url("../images/discover_03.png");
+    }
+    section.discoverArea ul li:nth-child(4){
+        background-image:url("../images/discover_04.png");
+    }
+
+    section.discoverArea ul li dl dt{
+        font-size: 3vw; font-weight: 600; color: #fff;
+        line-height: 5vw; display: inline-block; margin-bottom: 5vh;
+        border-bottom:1px solid transparent;
+    }
+    section.discoverArea ul li:hover dl dt{
+        border-bottom: 2px solid #8c2230;
+        animation-name: blink-2;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+    }
+    section.discoverArea ul li dl dd{
+        font-size: 2vw; font-weight: 300; line-height: 4vw;
+        color: #fff; opacity: 0; transition: opacity 0.75s ease;
+    } 
+    section.discoverArea ul li:hover dl dd{
+        opacity: 1;
+        animation-name: blink-2;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+    }
+    section.discoverArea ul li a{
+        display: inline-block; padding: 3%; border: 1px solid white;
+        text-decoration: none;
+        color: white; font-size: 2vw; position: absolute;
+        left: 10%; bottom: 5%;
+    }
+    section.discoverArea ul li:hover a{
+        background-color: #8c2230; border: none;
+        animation-name: blink-2;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+    }
+    section.discoverArea ul li a i{
+        margin-left: 1.5vw;
+    }
+
+    @keyframes blink-2 {
+        0% {
+        opacity: 1;
+        }
+        50% {
+        opacity: 0.2;
+        }
+        100% {
+        opacity: 1;
+        }
+    }
+    /* discoverArea Fin */
+
+}
+/*tablet*/
+
+@media screen and (min-width:1280px){
+    section.introArea{
+        width: 70%; margin: auto;
+        margin-bottom: 40px;
+    }
+    section.introArea .bx-wrapper img{width: 100%; height: 100%;}
+    section.introArea h2{display: none;}
+    section.introArea .bx-wrapper {
+        border: none;
+        background-color:black;
+    }
+    section.introArea .bx-wrapper .bx-pager,
+    section.introArea .bx-wrapper .bx-controls-auto{
+        bottom: 3%;
+    }
+    section.introArea .bx-wrapper .bx-pager.bx-default-pager a {
+        background: #fff;
+        border-radius: 10px;
+        text-indent: -9999px;
+        display: block;
+        width: 12px;
+        height: 12px;
+        margin: 0 5px;
+        outline: 0;
+    }
+    section.introArea .bx-wrapper .bx-pager.bx-default-pager a.active{
+        background-color: #d5001c;
+    }
+    section.introArea > div ul li figure{
+        display: block; position: relative;
+    }
+    section.introArea > div ul li figure img{width: 100%;}
+    section.introArea > div ul li figure figcaption dl{
+        position: absolute;
+        left: 160px; bottom: 150px;
+        color: white;
+    }
+    section.introArea > div ul li figure figcaption dl dt i{
+        margin: 0;
+        padding: 0;
+        color: #d5001c;
+    }
+    section.introArea > div ul li figure figcaption dl dt{
+        font-size: 60px; line-height: 70px; margin-bottom: 5px;
+        font-weight: 600;
+    }
+    section.introArea > div ul li figure figcaption dl dd{
+        padding-left: 60px;
+        font-size: 30px; font-weight: 300; line-height: 40px;
+    }
+    /* introArea FIn */
+
+
+    section.modelArea{margin-bottom: 200px; width: 70%; margin: 5% auto;}
+    section.modelArea h2{
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    section.modelArea ul{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    section.modelArea ul li{
+        flex-grow: 1; 
+        width:33.33%;
+        height: 100%;
+        position: relative;
+        box-sizing: border-box; cursor: pointer;
+        border: none; list-style: none; line-height: 0;
+        overflow: hidden;
+    }
+    section.modelArea ul li figure{
+        width: 100%;
+    }
+    section.modelArea ul li figure img{
+        width: 100%;
+    }
+    section.modelArea ul li:hover figure img{
+        transform: scale(1.15); width: 100%;
+        transition: all ease 2s;
+    }
+    section.modelArea ul li figure figcaption dl{
+        color: white;
+    }
+    section.modelArea ul li figure figcaption dl dt{
+        position: absolute; left:40px; top: 30px;
+        font-size: 60px; font-weight: 600; line-height: 60px;
+    }
+    section.modelArea ul li figure figcaption dl dd{
+        position: absolute; left: 40px; top: 100px;
+        font-size: 20px; font-weight: 400; line-height: 20px;
+    }
+    section.modelArea ul li a{
+        position: absolute; text-decoration: none; color: white;
+        border: 1px solid white; line-height: 30px; padding: 5px 10px;
+    }
+    section.modelArea ul li a:first-of-type{
+        left: 40px; bottom: 30px;
+    }
+    section.modelArea ul li a:nth-of-type(2){
+        left: 250px; bottom: 30px;
+    }
+    section.modelArea ul li a:first-of-type:hover,
+    section.modelArea ul li a:nth-of-type(2):hover{
+        background-color: #d5001c; border-color: #d5001c;
+        transition: background-color 0.5s ease;
+    }
+    section.modelArea ul li a i{
+        display: inline-block; margin-left: 10px;
+    }
+    /* modelArea Fin */
+
+    
+    section.findArea{
+        width: 100%;
+        height: 600px;
+        margin-bottom: 10%;
+        position: relative;
+    }
+    section.findArea h2{
+        font-size: 40px; font-weight: 300; line-height: 50px;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    section.findArea #map{
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+    }
+    section.findArea #floating-panel{
+        position: absolute;
+        top: 35%;
+        left: 0.5%;
+        z-index: 100;
+        background-color: #fff;
+        padding: 5px;
+        border: none;
+        text-align: center;
+        
+    }
+    section.findArea #floating-panel input{
+        background-color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    /* findArea Fin */
+
+
+    section.shoppingArea{
+        width: 100%; margin: auto;
+        margin-bottom: 40px;
+    }
+    section.shoppingArea h2{
+        font-size: 40px; font-weight: 300; margin-bottom: 40px;
+        text-align: center;
+    }
+    section.shoppingArea ul{
+        display: flex;
+        flex-flow: row nowrap;
+        transition: all 1.5s ease-in-out;
+    }
+    section.shoppingArea ul li{
+        flex-grow: 1; flex-basis: 0;
+        box-sizing: border-box; cursor: pointer;
+        display: block; height: 740px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        padding:60px;
+        position: relative;
+    }
+    section.shoppingArea ul:hover li{
+        background:transparent !important;
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    section.shoppingArea ul:hover li:first-child{
+        border-left: none;
+    }
+
+    section.shoppingArea ul li:nth-child(1){
+        background-image:url("../images/shoppingTools_01.png");
+    }
+    section.shoppingArea ul li:nth-child(2){
+        background-image:url("../images/shoppingTools_02.png");
+    }
+    section.shoppingArea ul li:nth-child(3){
+        background-image:url("../images/shoppingTools_03.png");
+    }
+    section.shoppingArea ul li:nth-child(4){
+        background-image:url("../images/shoppingTools_04.png");
+    }
+    section.shoppingArea ul li dl dt{
+        font-size: 20px; font-weight: 600; color: #fff;
+        line-height: 50px; display: inline-block; margin-bottom: 80px;
+        border-bottom:1px solid transparent;
+    }
+    section.shoppingArea ul li:hover dl dt{
+        border-bottom: 2px solid #8c2230;
+        animation-name: blink-2;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+    }
+    section.shoppingArea ul li dl dd{
+        font-size: 16px; font-weight: 300; line-height: 30px;
+        color: #fff; opacity: 0; transition: opacity 0.75s ease;
+    } 
+    section.shoppingArea ul li:hover dl dd{
+        opacity: 1;
+        animation-name: blink-2;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+    }
+    section.shoppingArea ul li a{
+        display: inline-block; padding: 15px; border: 1px solid white;
+        text-decoration: none;
+        color: white; font-size: 14px; position: absolute;
+        left:60px; bottom:60px;
+    }
+    section.shoppingArea ul li:hover a{
+        background-color: #8c2230; border: none;
+        animation-name: blink-2;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+    }
+    section.shoppingArea ul li a i{
+        margin-left: 10px;
+    }
+    
+    @keyframes blink-2 {
+        0% {
+        opacity: 1;
+        }
+        50% {
+        opacity: 0.2;
+        }
+        100% {
+        opacity: 1;
+        }
+    }
+    /* shoppingArea Fin */
+
+
+
+    
+    section.socialArea{
+        margin-bottom: 40px;
+        max-width: 70%; margin: auto;
+    }
+    section.socialArea h2{
+        font-size: 40px; font-weight: 300; margin-bottom: 40px; text-align: center;
+    }
+    section.socialArea .contentsArea{
+        display: flex; flex-flow: row wrap; margin-bottom: 50px;
+    }
+    section.socialArea .contentsArea ul{
+        flex-grow: 1; flex-basis: 50%;
+        display: flex; flex-flow: row wrap;
+        list-style: none;
+        cursor: pointer;
+        line-height: 0;
+    }
+    section.socialArea .contentsArea ul li{
+        width: 100%;
+    }
+    section.socialArea .contentsArea ul:first-child li:first-of-type,
+    section.socialArea .contentsArea ul:nth-child(2) li:nth-of-type(3){
+        flex-grow: 1; flex-basis: 100%;
+    }
+    section.socialArea .contentsArea ul:first-child li:nth-of-type(2),
+    section.socialArea .contentsArea ul:first-child li:nth-of-type(3),
+    section.socialArea .contentsArea ul:nth-child(2) li:first-of-type,
+    section.socialArea .contentsArea ul:nth-child(2) li:nth-of-type(2){
+        flex-grow: 1; flex-basis: 50%;
+    }
+    section.socialArea .contentsArea ul li figure{
+        width: 100%; height: 100%; position: relative;
+    }
+    section.socialArea .contentsArea ul li figure > a{
+        width: 100%; height: 100%; display: block;
+    }
+    section.socialArea .contentsArea ul li figure > a img{
+        width: 100%;
+    }
+    section.socialArea .contentsArea ul li:hover figure > a img{
+        width: 100%; opacity: 0.5; transition: opacity 0.5s ease-in-out;
+    }
+    section.socialArea .contentsArea ul li figure figcaption dl dt,
+    section.socialArea .contentsArea ul li figure figcaption dl dd{
+        opacity: 0;
+    }
+    section.socialArea .contentsArea ul li:hover figure figcaption dl dt{
+        display: inline-block; width: 100%; opacity: 1;
+        position: absolute; left: 5%; bottom: 20%;
+        font-size: 16px; font-weight: 400; line-height: 20px;
+    }
+    section.socialArea .contentsArea ul li:hover figure figcaption dl dd{
+        display: inline-block; width: 100%; opacity: 1;
+        position: absolute; left: 5%; bottom: 12%;
+        font-size: 16px; font-weight: 300; line-height: 20px;
+    }
+    section.socialArea .contentsArea ul li figure figcaption dl a{
+        width: 30px; display: block;
+        position: absolute; right: 5%; bottom: 5%;
+    }
+    section.socialArea .contentsArea ul li figure figcaption dl a img{
+        width: 100%;
+    }
+    
+
+
+    section.socialArea .detailInfo{
+        text-align: right;
+    }
+    section.socialArea div.detailInfo > a{
+        text-decoration: none; display: inline-block; line-height: 20px; box-sizing: border-box;
+        padding: 10px; font-size: 16px; font-weight: 300;
+        color: white; background-color: #313639;
+    }
+    section.socialArea div.detailInfo > a p{
+        display: inline-block;
+        
+    }
+    section.socialArea div.detailInfo > a i{
+        padding-left: 5px;
+    }
+    /* socialArea Fin*/
+
+
+
+    section.discoverArea{
+        width: 100%; ;
+        margin-bottom: 40px;
+    }
+    section.discoverArea h2{
+        font-size: 40px; font-weight: 300; margin-bottom: 40px;
+        text-align: center;
+    }
+    section.discoverArea ul{
+        display: flex;
+        flex-flow: row nowrap;
+        transition:all 1.5s ease-in-out;
+        
+    }
+    section.discoverArea ul li{
+        flex-grow: 1; flex-basis: 0;
+        box-sizing: border-box; cursor: pointer;
+        display: block; height: 600px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        padding:60px;
+        position: relative;
+    }
+    section.discoverArea ul:hover li{
+        background:transparent !important;
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    section.discoverArea ul:hover li:first-child{
+        border-left: none;
+    }
+
+    section.discoverArea ul li:nth-child(1){
+        background-image:url("../images/discover_01.png");
+    }
+    section.discoverArea ul li:nth-child(2){
+        background-image:url("../images/discover_02.png");
+    }
+    section.discoverArea ul li:nth-child(3){
+        background-image:url("../images/discover_03.png");
+    }
+    section.discoverArea ul li:nth-child(4){
+        background-image:url("../images/discover_04.png");
+    }
+
+    section.discoverArea ul li dl dt{
+        font-size: 20px; font-weight: 600; color: #fff;
+        line-height: 50px; display: inline-block; margin-bottom: 80px;
+        border-bottom:1px solid transparent;
+    }
+    section.discoverArea ul li:hover dl dt{
+        border-bottom: 2px solid #8c2230;
+        animation-name: blink-2;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+    }
+    section.discoverArea ul li dl dd{
+        font-size: 16px; font-weight: 300; line-height: 30px;
+        color: #fff; opacity: 0; transition: opacity 0.75s ease;
+    } 
+    section.discoverArea ul li:hover dl dd{
+        opacity: 1;
+        animation-name: blink-2;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+    }
+    section.discoverArea ul li a{
+        display: inline-block; padding: 15px; border: 1px solid white;
+        text-decoration: none;
+        color: white; font-size: 14px; position: absolute;
+        left:60px; bottom:60px;
+    }
+    section.discoverArea ul li:hover a{
+        background-color: #8c2230; border: none;
+        animation-name: blink-2;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+    }
+    section.discoverArea ul li a i{
+        margin-left: 10px;
+    }
+
+    @keyframes blink-2 {
+        0% {
+        opacity: 1;
+        }
+        50% {
+        opacity: 0.2;
+        }
+        100% {
+        opacity: 1;
+        }
+    }
+    /* discoverArea Fin */
+}
+/*desktop*/
