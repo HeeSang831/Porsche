@@ -141,6 +141,7 @@ input[type='checkbox']{display: none !important;}
         width: 80%;
         font-size: 4vw; font-weight: 300;
         padding: 2% 4%; box-sizing: border-box;
+        background-color: white;
         border-bottom: 1px solid #c8cacb;
         border-top: none; border-left: none; border-right: none;
     }
