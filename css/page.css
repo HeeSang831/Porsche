@@ -936,8 +936,8 @@
     }
     section.findArea #floating-panel{
         position: absolute;
-        top: 22.6%;
-        left: 12%;
+        top: 235px;
+        left: 10px;
         z-index: 100;
         background-color: white;
         padding: 5px;
